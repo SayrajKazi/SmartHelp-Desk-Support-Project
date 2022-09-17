@@ -1,0 +1,156 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<<<<<<< HEAD
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+    </div>
+    
+
+<h1>Customer Login</h1>
+
+
+    <form>
+        <div class="container">
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="text" placeholder="Enter Password" name="password" required>
+        
+            <button type="submit">Sign in</button>
+        </div>
+
+        <div class="container">
+            <a class="signupbtn" href="createAccount.html"> Sign up</a>
+        </div>
+    </form>
+  
+
+    
+            
+            <script type="text/javascript">
+                
+                function Login() {
+                    if (document.getElementById('username').value.includes( 'Kazi')) {
+                        if (document.getElementById('password').value.includes( 'Password')){
+                            document.getElementById('HomeLink').hidden = false;
+                            document.getElementById('login').hidden = true;
+                            document.getElementById('SignUp').hidden = true;
+                            var div = document.getElementById('Textarea');
+                            div.innerText = 'User Found';
+                        }
+                        else {
+                            var div = document.getElementById('Textarea');
+                            div.innerText = 'User Not Found';
+                        }
+                    }
+                    else {
+                        var div = document.getElementById('Textarea');
+                        div.innerText = 'User Not Found';
+                    }
+                }
+<<<<<<< HEAD
+                else {
+                    var div = document.getElementById('Textarea');
+                    div.innerText = 'User Not Found';
+                }
+            }
+            else {
+                var div = document.getElementById('Textarea');
+                div.innerText = 'User Not Found';
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+
+
+
+
+    </script>
+    <div class="center">
+        <button id= "login" onclick='Login()' >Sign in</button>
+        <a id="HomeLink" hidden href="customerDirectory.html" >Home Page!</a>
+        <a id="SignUp" href="signUp.html">Sign up</a>
+    </div>
+</body>
+=======
+
+<body>
+<!--    Creates Navigation Bar-->
+    <div class="topNav">
+        <a href="index.html">Home</a>
+    </div>
+    
+
+<!--    Allows user to enter username and password to sign in or directs them to business login or to create an account-->
+    <form><br><br><br>
+        <div class="login">
+            <h1 class="center">Login</h1>
+            
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="text" placeholder="Enter Password" name="password" required><br>
+        
+            <button type="submit">Sign in</button><br><br>
+            
+            
+            <div>
+            <a class="businessLogin" href="businessLogin.html">Business Login</a>
+            </div>
+            
+            <hr>
+            <br>
+            
+            <div class="container">
+                <a class= "signUpButton" href="createAccount.html">Sign up</a>
+            </div>
+            
+        </div>
+        
+    
+    </form>
+    
+            
+            <script type="text/javascript">
+                
+                function Login() {
+                    if (document.getElementById('username').value.includes( 'Kazi')) {
+                        if (document.getElementById('password').value.includes( 'Password')){
+                            document.getElementById('HomeLink').hidden = false;
+                            document.getElementById('login').hidden = true;
+                            document.getElementById('SignUp').hidden = true;
+                            var div = document.getElementById('Textarea');
+                            div.innerText = 'User Found';
+                        }
+                        else {
+                            var div = document.getElementById('Textarea');
+                            div.innerText = 'User Not Found';
+                        }
+                    }
+                    else {
+                        var div = document.getElementById('Textarea');
+                        div.innerText = 'User Not Found';
+                    }
+                }
+=======
+>>>>>>> 925be4ea0a6418195cef8ed5e9e8a4724614dd6a
+            </script>
+            
+            <script type="text/javascript">
+                
+                
+            </script>
+            <div class="center">
+                <a id="HomeLink" hidden href="customerDirectory.html" >Home Page!</a>
+            </div>
+</body>
+<<<<<<< HEAD
+>>>>>>> 2793a2c56a7422428c115d06b1f8500757d21078
+=======
+>>>>>>> 925be4ea0a6418195cef8ed5e9e8a4724614dd6a
